@@ -1,0 +1,4 @@
+#!/bin/bash
+bash fetch.sh
+ruby toggl2md.rb $1
+echo A markdown file is successfully generated.
